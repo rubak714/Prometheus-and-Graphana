@@ -127,17 +127,12 @@ Grafana login credentials used:
 ---
 
 ## 🔗 Visual Diagram (Prometheus + Grafana)
-
-![Monitoring Stack](monitoring_stack_diagram.png)
-
 ---
-
-## 🔗 Visual Representation of the Monitoring Stack
 
 The diagram below provides a high-level overview of how Prometheus and Grafana interact within the monitoring stack. Prometheus collects and scrapes metrics from Kubernetes services, while Grafana connects to Prometheus to visualize these metrics through customizable dashboards.
 
 <p align="center">
-  <img src="monitoring_stack_diagram.png" alt="Monitoring Stack Flowchart" width="150"/>
+  <img src="monitoring_stack_diagram.png" alt="Monitoring Stack Flowchart" width="300"/>
 </p>
 
 This visualization helped reinforce the architectural understanding and the communication flow between the components in the stack.
